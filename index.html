@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="公司网站首页，提供公司简介、产品中心、新闻中心和登录功能。">
+    <title>首页 - 公司名称</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <!-- 使用提供的URL作为公司图标 -->
+            <img class="company-icon" src="https://img.zcool.cn/community/010b6c60b4612711013eaf70914c0e.jpg@1280w_1l_2o_100sh" alt="公司图标">
+            <h1>xxx科技公司</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">首页</a></li>
+                <li><a href="about.html">公司简介</a></li>
+                <li><a href="products.html">产品中心</a></li>
+                <li><a href="news.html">新闻中心</a></li>
+            </ul>
+        </nav>
+        <div class="login-area">
+            <form id="loginForm">
+                <label for="username">用户名:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">密码:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">登录</button>
+            </form>
+        </div>
+    </header>
+
+    <section id="home-banner">
+        <h2>欢迎来到我们的网站</h2>
+        <p>这里是首页横幅区域。</p>
+    </section>
+
+    <section id="services">
+        <h2>我们的服务</h2>
+        <div class="services-list">
+            <article>
+                <h3>服务项目1</h3>
+                <p>服务项目的详细描述和优势介绍。</p>
+            </article>
+            <!-- 更多服务项目 -->
+        </div>
+    </section>
+
+    <section id="features">
+        <h2>我们的优势</h2>
+        <div class="features-list">
+            <div class="feature-item">
+                <h3>创新技术</h3>
+                <p>介绍公司在技术创新方面的成就和优势。</p>
+            </div>
+            <div class="feature-item">
+                <h3>专业团队</h3>
+                <p>介绍公司团队的专业背景和经验。</p>
+            </div>
+            <!-- 更多优势介绍 -->
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>客户评价</h2>
+        <div class="testimonials-list">
+            <blockquote>
+                <p>“公司名称提供了非常专业的服务，我们非常满意。”</p>
+                <footer>客户A</footer>
+            </blockquote>
+            <!-- 更多客户评价 -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>版权所有 &copy; 2024 公司名称</p>
+            <div class="social-links">
+                <a href="#" target="_blank"><img src="https://img.zcool.cn/community/010b6c60b4612711013eaf70914c0e.jpg@1280w_1l_2o_100sh" alt="Facebook"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
